@@ -1,0 +1,6 @@
+type Query {
+  hello (name: String): String,
+  infos : Person!,
+  allTodos : [Todo!],
+  todoById (id: String!):Todo!,
+  }

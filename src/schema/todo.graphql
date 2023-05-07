@@ -1,0 +1,13 @@
+type Todo {
+    id : String!,
+    name : String!,
+    content : String!,
+    status : TodoStatus!
+}
+
+enum TodoStatus {
+    WAITING,
+    IN_PROGRESS,
+    CANCELED,
+    DONE
+}

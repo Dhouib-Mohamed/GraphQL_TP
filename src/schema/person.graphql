@@ -1,0 +1,10 @@
+type Person {
+    name : String!,
+    age : Int!,
+    posts : [Post!]!
+}
+
+fragment User on Person {
+    name,
+    age
+}
